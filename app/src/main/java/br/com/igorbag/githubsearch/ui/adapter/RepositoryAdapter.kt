@@ -16,7 +16,7 @@ class RepositoryAdapter(private val repositories: List<Repository>) :
         val binding = RepositoryItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return ViewHolder(binding)
     }
-
+//comente
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val repository = repositories[position]
         holder.bind(repository)
